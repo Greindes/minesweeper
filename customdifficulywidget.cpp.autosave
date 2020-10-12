@@ -1,0 +1,28 @@
+#include "customdifficulywidget.h"
+
+#include <QSpinBox>
+#include <QPushButton>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+
+
+CustomDifficulyWidget::CustomDifficulyWidget(int width, int height, int bombAmount, QWidget *parent)
+    : QWidget(parent)
+{
+    setWindowFlags(Qt::Dialog);
+    QLabel * widthLabel = new QLabel("Ширина поля:", this);
+    QSpinBox * widthSB = new QSpinBox(this);
+    widthSB->setValue(width);
+    QLabel * heightLabel = new QLabel("Высота поля:", this);
+    QSpinBox * heightSB = new QSpinBox(this);
+    heightSB->setValue(height);
+    QLabel * bombsLabel = new QLabel("Число мин:", this);
+    QSpinBox * bombsSB = new QSpinBox(this);
+    bombsSB->setValue(bombAmount);
+    
+    QPushButton * okButton = new QPushButton("Ok", this);
+    
+    QPushButton * cancelButton = new QPushButton("Cancel", this);
+
+}
