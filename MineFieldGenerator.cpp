@@ -1,4 +1,4 @@
-#include "minefieldgenerator.h"
+#include "MineFieldGenerator.h"
 #include <time.h>
 #include <QDebug>
 

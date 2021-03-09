@@ -1,17 +1,18 @@
 <RCC>
     <qresource prefix="/icons">
-        <file>bomb.png</file>
-        <file>flag.png</file>
-        <file>1.png</file>
-        <file>2.png</file>
-        <file>3.png</file>
-        <file>4.png</file>
-        <file>5.png</file>
-        <file>6.png</file>
-        <file>7.png</file>
-        <file>8.png</file>
-        <file>win.png</file>
-        <file>lost.png</file>
-        <file>playing.png</file>
+        <file alias="1.png">icons/1.png</file>
+        <file alias="2.png">icons/2.png</file>
+        <file alias="3.png">icons/3.png</file>
+        <file alias="4.png">icons/4.png</file>
+        <file alias="5.png">icons/5.png</file>
+        <file alias="6.png">icons/6.png</file>
+        <file alias="7.png">icons/7.png</file>
+        <file alias="8.png">icons/8.png</file>
+        <file alias="bomb.png">icons/bomb.png</file>
+        <file alias="flag.png">icons/flag.png</file>
+        <file alias="lost.png">icons/lost.png</file>
+        <file alias="playing.png">icons/playing.png</file>
+        <file alias="win.png">icons/win.png</file>
+        <file alias="wrong_flag.png">icons/wrong_flag.png</file>
     </qresource>
 </RCC>

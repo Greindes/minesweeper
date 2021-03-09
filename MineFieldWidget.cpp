@@ -1,7 +1,7 @@
-#include "minefieldwidget.h"
+#include "MineFieldWidget.h"
 #include <QPushButton>
 #include <QGraphicsProxyWidget>
-#include "minefieldgenerator.h"
+#include "MineFieldGenerator.h"
 
 #include <QDebug>
 

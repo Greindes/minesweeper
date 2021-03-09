@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include "minefieldwidget.h"
+#include "MainWindow.h"
+#include "MineFieldWidget.h"
 #include <QApplication>
 
 #include <QTableView>

@@ -1,9 +1,9 @@
-#include "mainwindow.h"
+#include "MainWindow.h"
 #include "ui_mainwindow.h"
-#include <minefieldwidget.h>
+#include <MineFieldWidget.h>
 #include <QTimer>
 #include <QTime>
-#include "customdifficulydialog.h"
+#include "CustomDifficulyDialog.h"
 
 #include <QGuiApplication>
 #include <QScreen>

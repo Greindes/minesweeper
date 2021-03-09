@@ -25,17 +25,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11 static
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    minefieldgenerator.cpp \
-    minefieldwidget.cpp \
-    customdifficulydialog.cpp
+    CustomDifficulyDialog.cpp \
+    MainWindow.cpp \
+    MineFieldGenerator.cpp \
+    MineFieldWidget.cpp \
+        main.cpp
 
 HEADERS += \
-        mainwindow.h \
-    minefieldgenerator.h \
-    minefieldwidget.h \
-    customdifficulydialog.h
+    CustomDifficulyDialog.h \
+    MainWindow.h \
+    MineFieldGenerator.h \
+    MineFieldWidget.h
 
 FORMS += \
         mainwindow.ui

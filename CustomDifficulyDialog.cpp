@@ -1,4 +1,4 @@
-#include "customdifficulydialog.h"
+#include "CustomDifficulyDialog.h"
 
 #include <QSpinBox>
 #include <QPushButton>
